@@ -1,0 +1,34 @@
+{
+  "name": "js-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "t": "jest",
+    "test:watch": "jest --watch",
+    "tw": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "tc": "jest --coverage",
+    "test:file": "jest --testPathPattern",
+    "tf": "jest --testPathPattern"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/*.test.js",
+      "!jest.config.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "JavaScript Algorithm Practice Project"
+}

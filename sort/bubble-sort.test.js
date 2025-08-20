@@ -1,5 +1,5 @@
-const { runTests, createTestCase } = require('../test-utils');
-const bubbleSort = require('./bubble-sort');
+import { runTests, createTestCase } from '../test-utils.js';
+import bubbleSort from './bubble-sort.js';
 
 const testCases = [
   createTestCase('기본 정렬 테스트', [[64, 34, 25, 12, 22, 11, 90]], [11, 12, 22, 25, 34, 64, 90]),

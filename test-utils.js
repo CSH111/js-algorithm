@@ -31,7 +31,7 @@ function createErrorCase(description, input, errorMessage) {
   };
 }
 
-module.exports = {
+export {
   testCases,
   runTests,
   createTestCase,

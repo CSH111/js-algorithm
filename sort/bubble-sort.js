@@ -13,4 +13,4 @@ function bubbleSort(arr) {
   return arrCopied;
 }
 
-module.exports = bubbleSort;
+export default bubbleSort;

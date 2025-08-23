@@ -8,3 +8,4 @@
 | sort | Counting Sort | 25. 08. 21 |  |  |  |  |
 | sort | Quick Sort | 25. 08. 21 |  |  |  |  |
 | sort | Merge Sort | 25. 08. 22 |  |  |  |  |
+| sort | Radix Sort | 25. 08. 23 |  |  |  |  |

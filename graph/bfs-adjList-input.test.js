@@ -14,6 +14,13 @@ const testCases = [
     f: []
   }, "a"], ["a", "b", "c", "d", "e", "f"]),
   createTestCase('빈 인접 리스트', [{ a: ["b"], b: undefined }, "a"], ["a", "b"]),
+  createTestCase('양방향 연결 (중복 방문 테스트)', [{ a: ["b"], b: ["a"] }, "a"], ["a", "b"]),
+  createTestCase('다중 경로로 같은 노드 접근', [{ 
+    a: ["b", "c"], 
+    b: ["d"], 
+    c: ["d"], 
+    d: [] 
+  }, "a"], ["a", "b", "c", "d"]),
 ];
 
 runTests('BFS (Adjacency List)', bfsAdjInput, testCases);

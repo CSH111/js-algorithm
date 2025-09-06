@@ -4,7 +4,7 @@
 | ----- | ---------------------------- | ---------- | ---------- | ----- | ----- | ---- |
 | sort  | Bubble Sort                  | 25. 08. 20 | 25. 08. 29 |       |       |      |
 | sort  | Selection Sort               | 25. 08. 20 | 25. 08. 29 |       |       |      |
-| sort  | Insertion Sort               | 25. 08. 20 |            |       |       |      |
+| sort  | Insertion Sort               | 25. 08. 20 | 25. 09. 06 |       |       |      |
 | sort  | Counting Sort                | 25. 08. 21 |            |       |       |      |
 | sort  | Quick Sort                   | 25. 08. 21 |            |       |       |      |
 | sort  | Merge Sort                   | 25. 08. 22 |            |       |       |      |
@@ -13,3 +13,4 @@
 | etc   | Two Pointer                  | 25. 08. 29 |            |       |       |      |
 | graph | BFS Traversal(adjacent list) | 25. 08. 31 |            |       |       |      |
 | graph | BFS Traversal(Grid)          | 25. 09. 05 |            |       |       |      |
+| graph | BFS Traversal(Edge)          | 25. 09. 06 |            |       |       |      |

@@ -26,4 +26,20 @@ function insertionSort2(arr) {
   return copiedArr;
 }
 
-export default insertionSort;
+// export default insertionSort;
+
+function insertionSort3(oriArr) {
+  const arr = [...oriArr];
+
+  // [7,5]
+  for (let i = 1; i < arr.length; i++) {
+    let currVal = arr[i];
+    let j
+    for (j = i - 1; j >= 0 && currVal < arr[j]; j--) {
+      arr[j + 1] = arr[j];
+    }
+    arr[j + 1] = currVal;
+  }
+  return arr;
+}
+export default insertionSort3;

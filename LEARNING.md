@@ -12,5 +12,6 @@
 | etc   | Sliding Window               | 25. 08. 28 |            |       |       |      |
 | etc   | Two Pointer                  | 25. 08. 29 |            |       |       |      |
 | graph | BFS Traversal(adjacent list) | 25. 08. 31 |            |       |       |      |
-| graph | BFS Traversal(Grid)          | 25. 09. 05 |            |       |       |      |
+| graph | BFS Traversal(Grid)          | 25. 09. 05 | 25. 09. 07 |       |       |      |
 | graph | BFS Traversal(Edge)          | 25. 09. 06 |            |       |       |      |
+| graph | BFS Traversal(Grid-Shortest) | 25. 09. 07 |            |       |       |      |

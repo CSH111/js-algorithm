@@ -5,7 +5,7 @@
 | sort  | Bubble Sort                  | 25. 08. 20 | 25. 08. 29 |       |       |      |
 | sort  | Selection Sort               | 25. 08. 20 | 25. 08. 29 |       |       |      |
 | sort  | Insertion Sort               | 25. 08. 20 | 25. 09. 06 |       |       |      |
-| sort  | Counting Sort                | 25. 08. 21 |            |       |       |      |
+| sort  | Counting Sort                | 25. 08. 21 | 25. 09. 15 |       |       |      |
 | sort  | Quick Sort                   | 25. 08. 21 |            |       |       |      |
 | sort  | Merge Sort                   | 25. 08. 22 |            |       |       |      |
 | sort  | Radix Sort                   | 25. 08. 23 |            |       |       |      |
@@ -15,3 +15,4 @@
 | graph | BFS Traversal(Grid)          | 25. 09. 05 | 25. 09. 07 |       |       |      |
 | graph | BFS Traversal(Edge)          | 25. 09. 06 |            |       |       |      |
 | graph | BFS Traversal(Grid-Shortest) | 25. 09. 07 |            |       |       |      |
+| graph | DFS Traversal(adjacent list) | 25. 09. 15 |            |       |       |      |

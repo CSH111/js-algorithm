@@ -1,5 +1,5 @@
 // 계수정렬
-export default function countingSort(oriArr) {
+function countingSort(oriArr) {
   if (!oriArr.length) {
     return [];
   }
@@ -61,3 +61,38 @@ function countingSort2(oriArr) {
   });
   return zzz;
 }
+
+function countingSort3(oriArr) {
+  if (!oriArr.length) {
+    return [];
+  }
+  const arr = [...oriArr];
+  const max = Math.max(...arr);
+  const min = Math.min(...arr);
+
+  const countArr = new Array(max - min + 1).fill(0);
+
+  arr.forEach((num) => {
+    countArr[num - min]++;
+  });
+
+  const accArr = [];
+  countArr.forEach((num, idx) => {
+    accArr.push((accArr[idx - 1] || 0) + num);
+  });
+  const sorted = new Array(arr.length).fill(null);
+  for (let i = arr.length - 1; i > -1; i--) {
+    const targetIdx = accArr[arr[i] - min] - 1;
+    sorted[targetIdx] = arr[i];
+    accArr[arr[i] - min]--;
+  }
+  return sorted;
+
+  // [107, 105, 109, 110, 109]
+
+  // [1, 0, 1, 0, 2, 1]
+
+  // [1, 1, 2, 2, 4, 5]
+}
+
+export default countingSort3;
